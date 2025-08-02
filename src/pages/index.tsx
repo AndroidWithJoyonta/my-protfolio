@@ -35,42 +35,80 @@ const aboutStats = [
 
 const projects = [
   {
-    title: "Unqueue",
+    title: "Fashion Ecommerce app",
     description: "E-commerce platform for selling digital products",
-    image: "/assets/unqueue.webm",
-    href: "https://unqueue.shop/",
+    image: "/assets/Fashion-Ecommerce-app.png",
+    href: "https://github.com/AndroidWithJoyonta/Fashion-Ecommerce-app",
   },
   {
-    title: "InfiniteVPS",
-    description: "High performance VPS hosting solution",
-    image: "/assets/infinitevps.webm",
+    title: "Blinkit",
+    description: "High performance",
+    image: "/assets/binkit.png",
+    href: "https://github.com/AndroidWithJoyonta/Blinkit",
+  },
+
+  {
+    title: "E-Commerce App",
+    description: "Flutter TDD Clean Architecture E-Commerce App - EShop",
+    image: "/assets/splash.jpg",
     href: "#",
   },
+   {
+    title: "Ai ChatBot",
+    description: "Ai chat Bot gemini Api",
+    image: "/assets/aichatbot.png",
+    href: "#",
+  },
+
+    {
+    title: "Ecommerce App",
+    description: "Food app",
+    image: "/assets/food.png",
+    href: "#",
+  },
+
+   {
+    title: "Ecommerce App",
+    description: "Ecommerce App",
+    image: "/assets/eco.png",
+    href: "#",
+  },
+
+    {
+    title: "trading app",
+    description: "trading app",
+    image: "/assets/trading.png",
+    href: "#",
+  },
+
+    {
+    title: "Quiz app",
+    description: "quiz app",
+    image: "/assets/quiz.png",
+    href: "#",
+  },
+   {
+    title: "News App",
+    description: "News App rest api",
+    image: "/assets/newsapp.png",
+    href: "https://github.com/AndroidWithJoyonta/news-App-flutter/tree/main",
+  },
+
   {
-    title: "TranslateBot",
-    description: "Powerful Multilingual Translation Bot for Discord",
-    image: "/assets/translate_bot.webm",
+    title: "photos and video shareing app",
+    description: "photos and video shareing app Php backend",
+    image: "/assets/sharing.png",
     href: "https://translatebot.app/",
   },
-  {
-    title: "Wrona",
-    description: "Robotics-focused technology company",
-    image: "/assets/wrona.jpeg",
-    href: "https://www.wrona.com/",
-  },
-  {
-    title: "This website",
-    description: "My personal website",
-    image: "/assets/portfolio.webm",
-    href: "https://github.com/wendoj/portfolio",
-  },
+  
+ 
 ];
 
 const services = [
   {
-    service: "Frontend Development",
+    service: "Flutter Development",
     description:
-      "Creating stellar user interfaces and web experiences using the latest technologies.",
+      "Building cross-platform mobile apps with a single codebase using Flutter and Dart.",
     icon: Code2,
   },
   {
@@ -80,21 +118,21 @@ const services = [
     icon: Frame,
   },
   {
-    service: "SEO Optimization",
+    service: "Kotlin Android Development",
     description:
-      "Enhancing your website's visibility in search engines for increased organic traffic.",
+      "Developing native Android apps with Kotlin, ensuring performance and stability.",
     icon: SearchCheck,
   },
   {
     service: "Responsive Design",
     description:
-      "Designing websites that look and perform equally well on all devices and screen sizes.",
+      "Designing apps that look and perform equally well on all devices and screen sizes.",
     icon: MonitorSmartphone,
   },
   {
-    service: "Backend Development",
+    service: "API Integration",
     description:
-      "Developing robust, scalable server-side logic for a wide range of web applications.",
+      "Integrating RESTful APIs, Firebase, and third-party services to build powerful features.",
     icon: Eye,
   },
 ];
@@ -190,9 +228,9 @@ export default function Home() {
               data-scroll-speed=".09"
               className="flex flex-row items-center space-x-1.5"
             >
-              <span className={styles.pill}>next.js</span>
-              <span className={styles.pill}>tailwindcss</span>
-              <span className={styles.pill}>typescript</span>
+              <span className={styles.pill}>Flutter</span>
+              <span className={styles.pill}>Kotlin</span>
+              <span className={styles.pill}>Jetpack Compose</span>
             </div>
             <div>
               <h1
@@ -206,7 +244,7 @@ export default function Home() {
                   <br />
                 </span>
                 <span className="clash-grotesk text-gradient text-6xl 2xl:text-8xl">
-                  WendoJ.
+                  Joyonta.
                 </span>
               </h1>
               <p
@@ -215,7 +253,7 @@ export default function Home() {
                 data-scroll-speed=".06"
                 className="mt-1 max-w-lg tracking-tight text-muted-foreground 2xl:text-xl"
               >
-                An experienced full-stack website developer with a passion for
+                An experienced Mobile App developer with a passion for
                 crafting unique digital experiences.
               </p>
             </div>
@@ -225,7 +263,9 @@ export default function Home() {
               data-scroll-speed=".06"
               className="flex flex-row items-center space-x-1.5 pt-6"
             >
-              <Link href="mailto:wendoj@proton.me" passHref>
+              <Link href="
+https://wa.me/+8801747436910
+" passHref>
                 <Button>
                   Get in touch <ChevronRight className="ml-1 h-4 w-4" />
                 </Button>
@@ -269,13 +309,13 @@ export default function Home() {
             className="my-14 flex max-w-6xl flex-col justify-start space-y-10"
           >
             <h2 className="py-16  pb-2 text-3xl font-light leading-normal tracking-tighter text-foreground xl:text-[40px]">
-              I&apos;m an experienced full-stack developer proficient in{" "}
+              I&apos;m an experienced Mobile App developer proficient in{" "}
               <Link
                 href="https://create.t3.gg/"
                 target="_blank"
                 className="underline"
               >
-                TypeScript, Tailwind, and Next.js
+                Flutter, kotlin, and Jetpack 
               </Link>{" "}
               since 2021. My experience spans from startups to mid-sized
               companies, where I&apos;ve been instrumental in the entire product
@@ -326,8 +366,8 @@ export default function Home() {
               Streamlined digital experiences.
             </h2>
             <p className="mt-1.5 text-base tracking-tight text-muted-foreground xl:text-lg">
-              I&apos;ve worked on a variety of projects, from small websites to
-              large-scale web applications. Here are some of my favorites:
+              I&apos;ve worked on a variety of projects, from small app to
+              large-scale  applications. Here are some of my favorites:
             </p>
 
             {/* Carousel */}
@@ -446,7 +486,7 @@ export default function Home() {
               I&apos;m currently available for freelance work and open to
               discussing new projects.
             </p>
-            <Link href="mailto:wendoj@proton.me" passHref>
+            <Link href="https://wa.me/+8801747436910" passHref>
               <Button className="mt-6">Get in touch</Button>
             </Link>
           </div>
